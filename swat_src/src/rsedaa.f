@@ -26,8 +26,7 @@
 
       use parm
 
-      real, intent (in) :: years
-      integer :: j, ii
+      integer :: j, ii, years
 
       do j = 1, subtot
           write (84,5000) j, subgis(j), years, rch_dakm(j),             
